@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  background: radial-gradient( white,rgb(194, 239, 239)) ;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+.back {
+  width: 200px;
+  height: 150px;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-ul a {
+  text-decoration: none;
+  color: #191ba9;
+}
+.nav-ul li :hover {
+  text-decoration: overline;
+  color: #ffffff;
+}
+.nav-ul li {
+  padding: 20px;
+}
+.ca{
+    width:30px;
+    height:30px;
+}
+.div2 {
+  display: flex;
+}
+.div2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 100px;
+}
+.div2 img {
+  height: 500px;
+  width: 1000px;
+}
+.btn3 {
+  background-color: rgb(194, 239, 239);
+  margin-left: 100px;
+  font-size: 30px;
+  color: #191ba9;
+  border-color: #191ba9;
+  padding: 5px;
+  border-radius: 5px;
+}
+.btn3:hover {
+  background-color: #191ba9;
+  margin-left: 100px;
+  font-size: 30px;
+  color: rgb(194, 239, 239);
+  border-color: #191ba9;
+  padding: 5px;
+}
+
+/* main */
+.hh11 {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-decoration: underline;
+  text-decoration-color: rgb(194, 239, 239);
+}
+
+.main-img {
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.main-div {
+  display: flex;
+  margin: 100px;
+}
+.products {
+  margin: 100px;
+  margin-left: 250px;
+}
+.products21 {
+  display: flex;
+  padding: 20px;
+}
+.card {
+  margin: 10px;
+  width: 300px;
+  height: 490px;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.card:hover {
+  margin: -2px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.btnn {
+  background-color: #191ba9;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  align-items: center;
+}
+.btnn:hover {
+  background-color: rgb(194, 239, 239);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  align-items: center;
+}
+.card-img-top {
+  width: 100px;
+  height: 250px;
+}
+.card-title {
+  color: #555;
+  font-weight: normal;
+  text-align: center;
+}
+.zq {
+  display: flex;
+  justify-content: space-between;
+}
+/* footer */
+.hr {
+  border: none;
+  background: white;
+  height: 1px;
+  margin: 20px 0;
+}
+.Copyright {
+  text-align: center;
+  color: #8a8a8a;
+}
+.fin {
+  background-color: black;
+}
+.fin1 {
+  display: flex;
+  margin-left: 30px;
+}
+.lo {
+  width: 400px;
+  height: 250px;
+}
+.ii {
+  width: 150px;
+  height: 50px;
+}
+.nn {
+  color: #8a8a8a;
+}
+.down {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.log {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.pay {
+  width: 400px;
+}
+.photo {
+  padding-top: 20px;
+}

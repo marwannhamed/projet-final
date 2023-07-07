@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <div class="navbar">
+        <div>
+          <img src="img/logo_transparent.png" alt="" class="back" />
+        </div>
+        <div>
+          <nav class="nav">
+            <ul class="nav-ul">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="login.html">Account</a></li>
+              <li>
+                <a href="cart.html"
+                  ><img src="img/cart.png" alt="" class="ca"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- <div id="cart">
+        <h3>Cart</h3>
+        <ul id="cartItems">
+         
+          <img src="" class="" alt="..." />
+          <h5 class="card-title"></h5>
+          <p></p>
+        </ul>
+      </div> -->
+
+      <h1 class="">Shopping Cart</h1>
+
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>DURAMO 9</td>
+          <td>
+            <input
+              type="number"
+              value="0"
+              min="1"
+              id="item1-quantity"
+              onchange="updateTotalPrice()"
+            />
+          </td>
+          <td id="prx">89.99$</td>
+          <td>
+            <button
+              onclick="increaseQuantity('item1')"
+              class="bt"
+              onclick="updateTotalPrice()"
+            >
+              +
+            </button>
+            <button
+              onclick="decreaseQuantity('item1')"
+              class="bt"
+              onclick="updateTotalPrice()"
+            >
+              -
+            </button>
+            <button onclick="deleteItem(this)" class="bt">x</button>
+          </td>
+        </tr>
+        <tr>
+          <td>TRACKSUIT</td>
+          <td>
+            <input
+              type="number"
+              value="0"
+              min="1"
+              id="item2-quantity"
+              onchange="updateTotalPrice()"
+            />
+          </td>
+          <td id="prx">139.99$</td>
+          <td>
+            <button
+              onclick="increaseQuantity('item2')"
+              class="bt"
+              onclick="updateTotalPrice()"
+            >
+              +
+            </button>
+            <button
+              onclick="decreaseQuantity('item2')"
+              class="bt"
+              onclick="updateTotalPrice()"
+            >
+              -
+            </button>
+            <button onclick="deleteItem(this)" class="bt">x</button>
+          </td>
+        </tr>
+        <tr>
+          <td><hr class="hr2" /></td>
+        </tr>
+      </table>
+      <h3>Total Price: $<span id="total-price">0</span></h3>
+      <script src="cart.js"></script>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="fin">
+        <div class="fin1">
+          <div class="down">
+            <h4 class="nn">Download our app</h4>
+            <div class="photo">
+              <img src="img/app-store.png" alt="" class="ii" />
+              <br />
+              <img src="img/play-store.png" alt="" class="ii" />
+            </div>
+          </div>
+          <div class="log">
+            <img src="img/logo_transparent.png" alt="" class="lo" />
+          </div>
+          <div class="down">
+            <h4 class="nn">Follow us</h4>
+            <div class="photo">
+              <img src="img/facebook.jpg" alt="" /><br />
+              <img src="img/insta.png" alt="" /><br />
+              <img src="img/tiktok.png" alt="" /><br />
+              <img src="img/twitter.jpg" alt="" /><br />
+              <img src="img/youtube.jpg" alt="" />
+            </div>
+          </div>
+          <div class="down">
+            <h4 class="nn">Payment methods</h4>
+            <div class="photo">
+              <img src="img/visa.png" alt="" class="pay" /><br />
+            </div>
+          </div>
+        </div>
+        <div>
+          <hr class="hr" />
+        </div>
+        <div>
+          <p class="Copyright">
+            Copyright © 2023 <br />
+            MHD Shop All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
